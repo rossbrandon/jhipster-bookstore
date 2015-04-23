@@ -1,0 +1,58 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "book",
+            "relationshipNameCapitalized": "Book",
+            "relationshipFieldName": "book",
+            "otherEntityName": "book",
+            "relationshipType": "one-to-many",
+            "otherEntityNameCapitalized": "Book"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "first_name",
+            "fieldType": "String",
+            "fieldNameCapitalized": "First_name",
+            "fieldNameUnderscored": "first_name",
+            "fieldInJavaBeanMethod": "First_name",
+            "fieldValidate": true,
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "last_name",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Last_name",
+            "fieldNameUnderscored": "last_name",
+            "fieldInJavaBeanMethod": "Last_name",
+            "fieldValidate": true,
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "birthday",
+            "fieldType": "LocalDate",
+            "fieldNameCapitalized": "Birthday",
+            "fieldNameUnderscored": "birthday",
+            "fieldInJavaBeanMethod": "Birthday",
+            "fieldValidate": false
+        }
+    ],
+    "fieldsContainOwnerManyToMany": false,
+    "fieldsContainOneToMany": true,
+    "fieldsContainLocalDate": true,
+    "fieldsContainCustomTime": true,
+    "fieldsContainBigDecimal": false,
+    "fieldsContainDateTime": false,
+    "fieldsContainDate": false,
+    "changelogDate": "20150423052346",
+    "pagination": "no",
+    "validation": true
+}

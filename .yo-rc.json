@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "baseName": "bookstore",
+    "packageName": "com.bookstore",
+    "packageFolder": "com/bookstore",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "rememberMeKey": "88f391cafa897348966b176b1c71f9808714a6c8"
+  }
+}
